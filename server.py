@@ -1,10 +1,11 @@
+#coding=utf-8
 from cqhttp import CQHttp
 from wiki import search_wiki
 from turnip import get_turnip, record_turnip
 
 bot_id = 2739725869
 
-bot = CQHttp(api_root='http://127.0.0.1:5700/')
+bot = CQHttp(api_root='http://candlend.cn:5700/')
 
 @bot.on_message
 def handle_msg(event):
@@ -40,4 +41,4 @@ def handle_request(event):
     return {'approve': True}  # 同意所有加群、加好友请求
 
 
-bot.run(host='127.0.0.1', port=8080, debug=True)
+bot.run(host='0.0.0.0', port=7777)

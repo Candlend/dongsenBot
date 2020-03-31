@@ -1,3 +1,4 @@
+#coding=utf-8
 from datetime import datetime
 from datetime import timedelta
 import json
@@ -22,6 +23,10 @@ def record_turnip(event, message):
         return "参数非法"
     now = get_now()
     now_str = datetime.strftime(now,'%Y-%m-%d')
+    if now.hour >= 12:
+        now_str += " pm"
+    else:
+        now_str += " am"
     f = open(turnip_path, "a+", encoding='utf-8')
     f.seek(0)
     content = f.read() 
