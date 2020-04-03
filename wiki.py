@@ -40,7 +40,7 @@ def now_can_get(event, message):
             if str(now.month) in months and str(now.hour) in hours:
                 return "现在可以捉到" + args[2]
             else:
-                return "今天捉不到" + args[2]
+                return "现在捉不到" + args[2]
         else:
             return "请输入：现在 (+【半球】)+【物种名】"
     elif len(args) == 2:
