@@ -23,6 +23,14 @@ def handle_msg(event):
         if result != None: 
             bot.send(event, result); 
             return
+        result = now_can_get(event, message);
+        if result != None: 
+            bot.send(event, result); 
+            return
+        result = today_can_get(event, message);
+        if result != None: 
+            bot.send(event, result); 
+            return
         result = search_wiki(event, message);
         if result != None: 
             bot.send(event, result); 
