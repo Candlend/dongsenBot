@@ -1,6 +1,6 @@
 #coding=utf-8
 from cqhttp import CQHttp
-from wiki import search_wiki
+from wiki import now_can_get, today_can_get, search_wiki
 from turnip import get_turnip, record_turnip
 
 bot_id = 2739725869
