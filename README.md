@@ -1,7 +1,7 @@
 # 集合啦！动物森友会 QQ机器人
 
 ## 功能列表
-- 查询WIKI相关（来源为[集合啦!动物森友会WIKI_百科图鉴_BWIKI_哔哩哔哩](wiki.biligame.com/dongsen/)）
+- 查询WIKI相关（来源为[集合啦!动物森友会WIKI_百科图鉴_BWIKI_哔哩哔哩](https://wiki.biligame.com/dongsen/)）
   - 输入：【物品或物种名称】+【属性名】
     - 返回该属性具体内容
   - 输入：今天 (+【半球】)+【物种名】
